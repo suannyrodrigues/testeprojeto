@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.App{
+    width: 40%;
+    margin: 2em auto;
+    background-color: #3b0273 ;
+    border-radius: 5px ;
+    color: #04d9b2;
+    box-shadow: 0 0 10px #00eb84;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-meucurso{
+    padding: 0.5em;
+    border-bottom: 1px solid #00eb84;
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-meucurso h1{
+    margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-meucurso{
+    padding: 1em;
+    margin: 0 2em;
+    border-bottom: 1px solid #04d9b2;
 }
 
-.App-link {
-  color: #61dafb;
+.form-meucurso h2,
+.list-meucurso h2{
+    text-align: center;
+    margin-top: 0;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form-control label{
+    font-weight: bold;
+    font-size: .7em;
+    margin-bottom: .4em;
+}
+
+.form-control input{
+    border: 1px solid #04d9b2;
+    border-radius: 2px;
+    padding: 0.5em;
+    
+}
+
+input[type="submit"]{
+    display: block;
+    color: #3b0273;
+    width: 100%;
+    border: 1px solid #04d9b2;
+    border-radius: 5px;
+    padding: 1em;
+    cursor: pointer;
+
 }
